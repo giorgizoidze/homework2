@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Andriod Studio</string>
+    <string name="work">Work</string>
+    <string name="studio_android_com">studio@android.com</string>
+    <string name="mobile">Mobile</string>
+    <string name="_650_555_4321">(650) 555-4321</string>
+    <string name="google_voice">Google voice</string>
+    <string name="_650_555_1234">(650) 555 - 1234</string>
+</resources>

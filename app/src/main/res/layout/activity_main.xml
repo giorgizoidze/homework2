@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:src="@mipmap/android_studio_logo"/>
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/phone_number1"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:src="@mipmap/star" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/phone_receiver"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/phone_number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_650_555_1234"
+        android:textSize="25sp"
+        android:layout_below="@id/logo"
+        android:layout_toEndOf="@id/phone"
+        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google_voice"
+        android:layout_below="@id/phone_number1"
+        android:layout_toEndOf="@id/phone"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/chat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/chat"
+        android:layout_below="@+id/logo"
+        android:layout_toEndOf="@id/phone_number1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/mail"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/phone_number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_650_555_4321"
+        android:textSize="25sp"
+        android:layout_below="@id/google"
+        android:layout_toEndOf="@id/phone"
+        android:layout_marginTop="25dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile"
+        android:layout_below="@id/phone_number2"
+        android:layout_toEndOf="@id/phone"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/chat1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/chat"
+        android:layout_below="@+id/chat"
+        android:layout_toEndOf="@id/phone_number1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:id="@+id/hr"
+        android:layout_width="300dp"
+        android:layout_height="7dp"
+        android:background="#999"
+        android:layout_below="@id/mobile"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/mail_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/studio_android_com"
+        android:textSize="20sp"
+        android:layout_below="@id/hr"
+        android:layout_toEndOf="@id/phone"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work"
+        android:layout_below="@id/mail_address"
+        android:layout_toEndOf="@id/phone"
+        android:textSize="20sp"
+        />
+</RelativeLayout>
+
+
+
+
+
+
+
+
